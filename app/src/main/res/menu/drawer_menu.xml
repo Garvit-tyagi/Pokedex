@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+<item android:id="@+id/pokemons"
+    android:title="Pokemons"
+    />
+    <item android:id="@+id/typedex"
+        android:title="Type Dex"
+        />
+    <item android:id="@+id/regiondex"
+        android:title="Region Dex"
+        />
+    <item android:id="@+id/itemdex"
+        android:title="item Dex"
+        />
+    <item android:id="@+id/locationdex"
+        android:title="Location Dex"
+        />
+<!--    <item android:id="@+id/favourites"-->
+<!--        android:title="Favourites"-->
+<!--        />-->
+
+
+</group>
+</menu>
